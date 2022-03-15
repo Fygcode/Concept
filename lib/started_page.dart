@@ -113,8 +113,7 @@ class _Started_PageState extends State<Started_Page> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               _buildContainer(),
-              _buildContainer(),
-              _buildContainer(),
+            
             ],
           ),
         ],
