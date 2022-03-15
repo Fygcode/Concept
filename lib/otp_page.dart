@@ -53,18 +53,18 @@ class _Otp_PageState extends State<Otp_Page> {
           showCursor: true,
           readOnly: false,
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
           keyboardType: TextInputType.number,
           maxLength: 1,
           decoration: InputDecoration(
             filled: true,
             fillColor: Colors.white,
-            counter: Offstage(),
+            counter: const Offstage(),
             enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.white),
+                borderSide: const BorderSide(color: Colors.white),
                 borderRadius: BorderRadius.circular(10)),
             focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Colors.white),
+                borderSide: const BorderSide(color: Colors.white),
                 borderRadius: BorderRadius.circular(10)),
           ),
         ),

@@ -21,7 +21,7 @@ class _Started_PageState extends State<Started_Page> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(25),
           ),
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: <Color>[
               Color(0xFF1ABEFF),
               Color(0xFFE600EB),
@@ -112,6 +112,8 @@ class _Started_PageState extends State<Started_Page> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              _buildContainer(),
+              _buildContainer(),
               _buildContainer(),
             ],
           ),

@@ -31,7 +31,7 @@ class _SignupPageState extends State<SignupPage> {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(18),
           ),
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: <Color>[
               Color(0xFF28B6ED),
               Color(0xFFE063FF),
